@@ -1,10 +1,22 @@
+# API 키 정보
 api_key = "d15fcea5-37de-4621-b0d1-9f3cfee37fcf"
 secret = "C18AD2A305B14DD6FFFB332AB8A92655"
 password = "Sung6461??"
+
+# 필수 라이브러리
 import ccxt
 import time
 import pandas as pd
 from datetime import datetime
+
+# OKX 거래소 연결
+exchange = ccxt.okx({
+    'apiKey': api_key,
+    'secret': secret,
+    'password': password,
+    'enableRateLimit': True,
+    'options': {'defaultType': 'swap'}
+})
 
 # ✅ API 설정
 api_key = 'YOUR_API_KEY'
