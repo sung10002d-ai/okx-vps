@@ -1,6 +1,6 @@
-api_key = d15fcea5-37de-4621-b0d1-9f3cfee37fcf
-secret = C18AD2A305B14DD6FFFB332AB8A92655
-password = Sung6461??
+api_key = "d15fcea5-37de-4621-b0d1-9f3cfee37fcf"
+secret = "C18AD2A305B14DD6FFFB332AB8A92655"
+password = "Sung6461??"
 import ccxt
 import time
 import pandas as pd
